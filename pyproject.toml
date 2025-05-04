@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlProject"
+version = "0.0.0"
+description = "ML project with MLOps integration"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "mlflow",
+    "notebook",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "python-box",
+    "tqdm",
+    "ensure",
+    "joblib",
+    "types-PyYAML",
+    "Flask",
+    "Flask-Cors"
+]
+
+[project.optional-dependencies]
+dev = []
